@@ -8,7 +8,6 @@ export default function Home() {
         <title>Is Parler Up?</title>
         <link rel="icon" href="/favicon.ico" />
 
-        <!-- Matomo -->
         <script type="text/javascript">
           var _paq = window._paq = window._paq || [];
           /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -22,7 +21,6 @@ export default function Home() {
             g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
           })();
         </script>
-        <!-- End Matomo Code -->
       </Head>
 
       <main className={styles.main}>
